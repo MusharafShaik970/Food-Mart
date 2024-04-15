@@ -38,6 +38,13 @@
 list-style: none;
 }
 
+.login-button{
+    margin: 2px;
+    padding: 5px;
+    border-radius:10%;
+    border-color: silver;
+}
+
 .res-card{
     width: 200px;
     border: 1px solid rebeccapurple;
@@ -54,6 +61,14 @@ border:  1px solid black;
     margin: 4px;
 }
 
+.error-message{
+    font-size: 30px;
+    color: red;
+    margin: 0 auto;
+    padding: 2px;
+    text-align: center;
+}
+
 .res-container{
     padding: 2rem;
     display: flex;
@@ -68,4 +83,17 @@ border:  1px solid black;
 .search-btn{
     margin: 10px;
     background-color: #f3d8e6;
+}
+
+.shimmer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.shimmer-card{
+    height: 350px;
+    width: 200px;
+    background-color: #f0f0f0;
+    margin: 10px;
 }
